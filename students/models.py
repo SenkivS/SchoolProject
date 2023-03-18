@@ -29,7 +29,7 @@ class Students(models.Model):
                 st.save()
                 print('Saved')
             except:
-                print('nihera ne vishlo')
+                pass
 
     class Meta:
         db_table = 'students'
